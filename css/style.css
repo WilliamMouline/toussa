@@ -1,0 +1,201 @@
+header {
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 15%, rgba(0,0,0,1) 39%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 59%, rgba(0,0,0,0.8) 85%, rgba(0,0,0,0) 100%);
+	 /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(15%,rgba(0,0,0,0.8)), color-stop(39%,rgba(0,0,0,1)), color-stop(50%,rgba(0,0,0,1)), color-stop(59%,rgba(0,0,0,1)), color-stop(85%,rgba(0,0,0,0.8)), color-stop(100%,rgba(0,0,0,0)));
+	 /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 15%,rgba(0,0,0,1) 39%,rgba(0,0,0,1) 50%,rgba(0,0,0,1) 59%,rgba(0,0,0,0.8) 85%,rgba(0,0,0,0) 100%); 
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 15%,rgba(0,0,0,1) 39%,rgba(0,0,0,1) 50%,rgba(0,0,0,1) 59%,rgba(0,0,0,0.8) 85%,rgba(0,0,0,0) 100%); 
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 15%,rgba(0,0,0,1) 39%,rgba(0,0,0,1) 50%,rgba(0,0,0,1) 59%,rgba(0,0,0,0.8) 85%,rgba(0,0,0,0) 100%); 
+	/* IE10+ */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 15%,rgba(0,0,0,1) 39%,rgba(0,0,0,1) 50%,rgba(0,0,0,1) 59%,rgba(0,0,0,0.8) 85%,rgba(0,0,0,0) 100%); 
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */	
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 10%;
+	width: 100%;
+	z-index:2;
+}
+
+section{
+	margin-left:8%;
+	margin-right:8%;
+	height:100%;
+	background-color:white;
+}
+article{
+	padding:3%;
+	position: relative;
+	text-align:center;
+	top: 80px;
+	background-color: white;
+	z-index:1;
+}
+li a {
+	margin:2%;
+}
+
+body {
+	background-image:url(../img/background.jpg);
+}
+nav {
+	text-align:center;
+	top: 5px;
+	font-family: Arial, sans-serif;
+	line-height: 1em;
+	color: #fff9d6;
+	font-weight:bold;
+	font-size: 30px;
+	text-shadow:0px 0px 0 rgb(213,213,213),1px 0px 0 rgb(180,180,180), 2px 0px 0 rgb(148,148,148),3px 0px 2px rgba(0,0,0,0.3),3px 0px 1px rgba(0,0,0,0.5),0px 0px 2px rgba(0,0,0,.2);
+}
+
+nav a{
+	text-decoration:none;
+	color: white;
+}
+
+nav li {
+	display: inline;
+	
+}
+
+form {
+}
+div#divform {
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 2%;
+	border:ridge 2px #000000;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	background-image:url(../img/background2.jpg);
+}
+legend{
+	padding: 6px;
+	font-weight: bold;
+}
+
+
+textarea{
+	resize:none;
+}
+div#creation_balise {
+	text-align:left;
+	padding:2%;
+}
+select#balise{
+	vertical-align:middle;
+	width:150px;
+}
+
+textarea#content{
+	margin-right: 4%;
+	height:25px;
+	vertical-align:middle;
+	font-size:11pt;
+	overflow-y: scroll;
+}
+
+div#ajout_attribut2 {
+	visibility:hidden;
+}
+
+div#ajout_attribut3 {
+	visibility:hidden;
+}
+
+div#ajout_attribut4 {
+	visibility:hidden;
+}
+div.attributs{
+	margin-top:1%;
+}
+
+select{
+	vertical-align:middle;
+	width:120px;
+}
+
+button{
+	height:30px;
+	vertical-align:middle;
+}
+
+input#ajout{
+	margin-top:3%;
+	height:30px;
+}
+div#submit{
+	margin-top:2%;
+}
+.overlay {
+	background-color: rgba(0, 0, 0, 0.6);
+	bottom: 0;
+	cursor: default;
+	left: 0;
+	opacity: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	visibility: hidden;
+	z-index: 1;
+
+	-webkit-transition: opacity .5s;
+	-moz-transition: opacity .5s;
+	-ms-transition: opacity .5s;
+	-o-transition: opacity .5s;
+	transition: opacity .5s;
+}
+.overlay:target {
+	visibility: visible;
+	opacity: 1;
+}
+.popup {
+	background-color: #fff;
+	border: 3px solid #fff;
+	display: inline-block;
+	left: 50%;
+	opacity: 0;
+	padding: 15px;
+	position: fixed;
+	text-align: justify;
+	top: 40%;
+	visibility: hidden;
+	z-index: 10;
+	width:50%;
+
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+
+	-webkit-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+	-moz-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+	-ms-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+	-o-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+	box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+
+	-webkit-transition: opacity .5s, top .5s;
+	-moz-transition: opacity .5s, top .5s;
+	-ms-transition: opacity .5s, top .5s;
+	-o-transition: opacity .5s, top .5s;
+	transition: opacity .5s, top .5s;
+}
+.overlay:target+.popup {
+	top: 50%;
+	opacity: 1;
+	visibility: visible;
+}
+
+
