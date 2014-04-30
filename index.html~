@@ -9,7 +9,7 @@
 	<header>
 		<nav>
 			<ul>
-				<li><a href="./index.html">Accueil</a></li>
+				<li><a href="./accueil.html">Accueil</a></li>
 				<li><a href="./creation.html">Création</a></li>
 				<li><a href="./import.html">Import</a></li>
 				<li><a href="./apropos.html">A propos</a></li>

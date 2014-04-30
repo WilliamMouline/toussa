@@ -1,0 +1,329 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes" ?>
+<base>
+	<node name="html" />
+	<node name="!doctype" />
+	<node name="!-- --" />
+	<node name="form">
+		<attribute name="action" />
+		<attribute name="method">
+			<attribute-value>GET</attribute-value>
+			<attribute-value>POST</attribute-value>
+		</attribute>
+	</node>
+	<node name="a">
+		<attribute name="href" />
+	</node>
+	<node name="body" />
+	<node name="br" />
+	<node name="caption">
+		<attribute name="align">
+			<attribute-value>center</attribute-value>
+			<attribute-value>left</attribute-value>
+			<attribute-value>right</attribute-value>
+		</attribute>
+	</node>
+	<node name="col" />
+	<node name="div">
+		<attribute name="id" />
+		<attribute name="class" />
+	</node>
+	<node name="em" />
+	<node name="embed" />
+	<node name="h1">
+		<attribute name="align">
+			<attribute-value>center</attribute-value>
+			<attribute-value>left</attribute-value>
+			<attribute-value>right</attribute-value>
+		</attribute>
+	</node>
+	<node name="h2">
+		<attribute name="align">
+			<attribute-value>center</attribute-value>
+			<attribute-value>left</attribute-value>
+			<attribute-value>right</attribute-value>
+		</attribute>
+	</node>
+	<node name="h3">
+		<attribute name="align">
+			<attribute-value>center</attribute-value>
+			<attribute-value>left</attribute-value>
+			<attribute-value>right</attribute-value>
+		</attribute>
+	</node>
+	<node name="h4">
+		<attribute name="align">
+			<attribute-value>center</attribute-value>
+			<attribute-value>left</attribute-value>
+			<attribute-value>right</attribute-value>
+		</attribute>
+	</node>
+	<node name="h5">
+		<attribute name="align">
+			<attribute-value>center</attribute-value>
+			<attribute-value>left</attribute-value>
+			<attribute-value>right</attribute-value>
+		</attribute>
+	</node>
+	<node name="h6">
+		<attribute name="align">
+			<attribute-value>center</attribute-value>
+			<attribute-value>left</attribute-value>
+			<attribute-value>right</attribute-value>
+		</attribute>
+	</node>
+	<node name="head" />
+	<node name="img">
+		<attribute name="src" />
+		<attribute name="align">
+			<attribute-value>top</attribute-value>
+			<attribute-value>middle</attribute-value>
+			<attribute-value>bottom</attribute-value>
+			<attribute-value>left</attribute-value>
+			<attribute-value>right</attribute-value>
+		</attribute>
+		<attribute name="width" />
+		<attribute name="height" />
+		<attribute name="border" />
+		<attribute name="alt" />
+	</node>
+	<node name="i" />
+	<node name="input">
+		<attribute name="type">
+			<attribute-value>submit</attribute-value>
+			<attribute-value>reset</attribute-value>
+			<attribute-value>radio</attribute-value>
+			<attribute-value>checkbox</attribute-value>
+		</attribute>
+		<attribute name="value" />
+		<attribute name="name" />
+		<attribute name="size" />
+		<attribute name="maxlenght" />
+	</node>
+	<node name="label" />
+	<node name="li" />
+	<node name="meta">
+		<attribute name="name">
+			<attribute-value>description</attribute-value>
+			<attribute-value>keywords</attribute-value>
+			<attribute-value>author</attribute-value>
+		</attribute>
+		<attribute name="content" />
+		<attribute name="url" />
+	</node>
+	<node name="ol" />
+	<node name="p">
+		<attribute name="align">
+			<attribute-value>center</attribute-value>
+			<attribute-value>left</attribute-value>
+			<attribute-value>right</attribute-value>
+		</attribute>
+	</node>
+	<node name="q" />
+	<node name="script">
+		<attribute name="language">
+			<attribute-value>javascript</attribute-value>
+			<attribute-value>vbscript</attribute-value>
+		</attribute>
+	</node>
+	<node name="span">
+		<attribute name="id" />
+		<attribute name="class" />
+	</node>
+	<node name="strong" />
+	<node name="style" />
+	<node name="sub" />
+	<node name="sup" />
+	<node name="table">
+		<attribute name="cols" />
+		<attribute name="width" />
+		<attribute name="border" />
+		<attribute name="cellpadding" />
+		<attribute name="cellspacing" />
+	</node>
+	<node name="td">
+		<attribute name="width" />
+		<attribute name="align">
+			<attribute-value>center</attribute-value>
+			<attribute-value>left</attribute-value>
+			<attribute-value>right</attribute-value>
+		</attribute>
+		<attribute name="colspan" />
+		<attribute name="rowspan" />
+		<attribute name="bgcolor" />
+	</node>
+	<node name="textarea">
+		<attribute name="name" />
+		<attribute name="rows" />
+		<attribute name="cols" />
+	</node>
+	<node name="th" />
+	<node name="ul" />
+
+
+
+	<property name="font-family" />
+	<property name="font-size" />
+	<property name="font-weight">
+		<property-value>bold</property-value>
+		<property-value>normal</property-value>
+	</property>
+	<property name="font-style">
+		<property-value>italic</property-value>
+		<property-value>oblique</property-value>
+		<property-value>normal</property-value>
+	</property>
+	<property name="font-decoration">
+		<property-value>underline</property-value>
+		<property-value>overline</property-value>
+		<property-value>line-through</property-value>
+		<property-value>blink</property-value>
+		<property-value>none</property-value>
+	</property>
+	<property name="font-variant">
+		<property-value>small-caps</property-value>
+		<property-value>normal</property-value>
+	</property>
+	<property name="text-transform">
+		<property-value>capitalize</property-value>
+		<property-value>lowercase</property-value>
+		<property-value>uppercase</property-value>
+	</property>
+	<property name="font" />
+	<property name="text-align">
+		<property-value>left</property-value>
+		<property-value>center</property-value>
+		<property-value>right</property-value>
+		<property-value>justify</property-value>
+	</property>
+	<property name="vertical-align">
+		<property-value>baseline</property-value>
+		<property-value>middle</property-value>
+		<property-value>sub</property-value>
+		<property-value>super</property-value>
+		<property-value>top</property-value>
+		<property-value>bottom</property-value>
+	</property>
+	<property name="line-height" />
+	<property name="text-indent" />
+	<property name="white-space">
+		<property-value>pre</property-value>
+		<property-value>nowrap</property-value>
+		<property-value>normal</property-value>
+	</property>
+	<property name="word-wrap">
+		<property-value>break-word</property-value>
+		<property-value>normal</property-value>
+	</property>
+	<property name="color" />
+	<property name="background-color" />
+	<property name="background-image" />
+	<property name="background-attachment">
+		<property-value>fixed</property-value>
+		<property-value>scroll</property-value>
+	</property>
+	<property name="background-repeat">
+		<property-value>reapeat-x</property-value>
+		<property-value>repeat-y</property-value>
+		<property-value>no-repeat</property-value>
+		<property-value>repeat</property-value>
+	</property>
+	<property name="background" />
+	<property name="opacity" />
+	<property name="width" />
+	<property name="height" />
+	<property name="min-width" />
+	<property name="max-width" />
+	<property name="min-height" />
+	<property name="max-height" />
+	<property name="margin-top" />
+	<property name="margin-left" />
+	<property name="margin-right" />
+	<property name="margin-bottom" />
+	<property name="margin" />
+	<property name="padding-left" />
+	<property name="padding-right" />
+	<property name="padding-bottom" />
+	<property name="padding-top" />
+	<property name="padding" />
+	<property name="border-width" />
+	<property name="border-color" />
+	<property name="border-style">
+		<property-value>solid</property-value>
+		<property-value>dotted</property-value>
+		<property-value>dashed</property-value>
+		<property-value>double</property-value>
+		<property-value>groove</property-value>
+		<property-value>ridge</property-value>
+		<property-value>inset</property-value>
+		<property-value>outset</property-value>
+	</property>
+	<property name="border" />
+	<property name="border-radius" />
+	<property name="display">
+		<property-value>block</property-value>
+		<property-value>inline</property-value>
+		<property-value>inline-block</property-value>
+		<property-value>table</property-value>
+		<property-value>table-cell</property-value>
+		<property-value>none</property-value>
+	</property>
+	<property name="visibility">
+		<property-value>visible</property-value>
+		<property-value>hidden</property-value>
+	</property>
+	<property name="overflow">
+		<property-value>auto</property-value>
+		<property-value>scroll</property-value>
+		<property-value>visible</property-value>
+		<property-value>hidden</property-value>
+	</property>
+	<property name="float">
+		<property-value>left</property-value>
+		<property-value>right</property-value>
+		<property-value>none</property-value>
+	</property>
+	<property name="clear">
+		<property-value>left</property-value>
+		<property-value>right</property-value>
+		<property-value>both</property-value>
+		<property-value>none</property-value>
+	</property>
+	<property name="position">
+		<property-value>relative</property-value>
+		<property-value>absolute</property-value>
+		<property-value>static</property-value>
+	</property>
+	<property name="top" />
+	<property name="bottom" />
+	<property name="left" />
+	<property name="right" />
+	<property name="list-style-type">
+		<property-value>disc</property-value>
+		<property-value>circle</property-value>
+		<property-value>square</property-value>
+		<property-value>decimal</property-value>
+		<property-value>lower-roman</property-value>
+		<property-value>upper-roman</property-value>
+		<property-value>lower-alpha</property-value>
+		<property-value>upper-alpha</property-value>
+		<property-value>none</property-value>
+	</property>
+	<property name="list-style-position">
+		<property-value>inside</property-value>
+		<property-value>outside</property-value>
+	</property>
+	<property name="list-style-image" />
+	<property name="list-style" />
+	<property name="border-collapse">
+		<property-value>collapse</property-value>
+		<property-value>separate</property-value>
+	</property>
+	<property name="empty-cells">
+		<property-value>hide</property-value>
+		<property-value>show</property-value>
+	</property>
+	<property name="caption-side">
+		<property-value>bottom</property-value>
+		<property-value>top</property-value>
+	</property>
+</base>

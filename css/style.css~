@@ -39,7 +39,7 @@ li a {
 }
 
 body {
-	background-image:url(background.jpg);
+	background-image:url(../img/background.jpg);
 }
 nav {
 	text-align:center;
@@ -72,7 +72,7 @@ div#divform {
 	-moz-border-radius: 8px;
 	-webkit-border-radius: 8px;
 	border-radius: 8px;
-	background-image:url(background2.jpg);
+	background-image:url(../img/background2.jpg);
 }
 legend{
 	padding: 6px;

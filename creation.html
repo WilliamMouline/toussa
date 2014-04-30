@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset="utf-8">
+		<title>Cr&eacuteation de page web</title>
+		<script type="text/javascript" src="./js/creation.js"> </script>
+		<link rel="stylesheet" href="./css/style.css">
+		<link rel="stylesheet" href="./css/stylePopup.css">
+	</head>
+<body>
+
+
+	<header>
+		<nav>
+			<ul>
+				<li><a href="./index.html">Accueil</a></li>
+				<li><a href="./creation.html">Cr&eacute;ation</a></li>
+				<li><a href="./import.html">Import</a></li>
+				<li><a href="./apropos.html">A propos</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<section>
+		<article>
+			<div id="divform">
+				<form id="form">
+					<fieldset>
+					<legend>Ajouter une balise</legend>
+					<div id="creation_balise">
+						<select name="balise" id="balise">
+							<option value="Balise1">Balise1</option>
+						</select>
+						<label for="content">Content :</label>
+						<textarea name="content" id="content" rows="1"></textarea>
+					</div>
+					<div class="attributs" id="ajout_attribut1">
+						<select name="atribut1" id="atr1">
+							<option value="Atr1">Atr1</option>
+						</select>
+						<label for="valueattr1">Value :</label>
+						<textarea name="vatr1" id="valueattr1" rows="1"></textarea>
+						<input type="button" id="modifier1" name="modifier" value="Modifer">
+						<input type="button" name="supprimer1" value="Supprimer">
+					</div>
+                    <input type="button" id="ajouter1" name="ajouter" value="Ajouter" onclick="plus()">
+					<input id="ajout" type="submit" value="Ajouter balise"/>
+					</fieldset>
+				</form>
+			</div>
+		</article>
+		<article>
+			<div id="apercu">
+				<a href="#baliseapercu" id="test">Balise</a>
+		
+<!-- popup form #1 -->
+				<a href="#x" class="overlay" id="baliseapercu"></a>
+				<div class="popup">
+					<h2>Modification CSS de balise</h2>
+					<div>Nom balise { </div>
+					<div>
+						<select name="propriete1" id="prop1">
+							<option value="propriete1">Propriété1</option>
+						</select>
+						:
+						<textarea name="vprop1" id="content" rows="1"></textarea>
+						<button type="button" name="ajouter">Ajouter</button>
+						<button type="button" name="modifier">Modifer</button>
+						<button type="button" name="supprimer">Supprimer</button>
+						
+					</div>
+					}
+					<div id="divsubmit">
+						<input type="Submit" value="Ajouter propriétés" />
+					</div>
+				</div>
+			</div>	
+		</article>
+	</section>
+</body>
+</html>
