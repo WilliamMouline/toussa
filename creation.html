@@ -27,21 +27,23 @@
 				<form id="form">
 					<fieldset>
 					<legend>Ajouter une balise</legend>
-					<div id="creation_balise">
-						<select name="balise" id="balise">
-							<option value="Balise1">Balise1</option>
-						</select>
-						<label for="content">Content :</label>
-						<textarea name="content" id="content" rows="1"></textarea>
-					</div>
-					<div class="attributs" id="ajout_attribut1">
-						<select name="atribut1" id="atr1">
-							<option value="Atr1">Atr1</option>
-						</select>
-						<label for="valueattr1">Value :</label>
-						<textarea name="vatr1" id="valueattr1" rows="1"></textarea>
-						<input type="button" id="modifier1" name="modifier" value="Modifer">
-						<input type="button" name="supprimer1" value="Supprimer">
+					<div id="allAttributs">
+						<div id="creation_balise">
+							<select name="balise" id="balise">
+								<option value="Balise1">Balise1</option>
+							</select>
+							<label for="content">Content :</label>
+							<textarea name="content" id="content" rows="1"></textarea>
+						</div>
+						<div class="attributs">
+							<select name="atribut1" id="atr1">
+								<option value="Atr1">Atr1</option>
+							</select>
+							<label for="valueattr1">Value :</label>
+							<textarea name="vatr1" id="valueattr1" rows="1"></textarea>
+							<input type="button" id="modifier1" name="modifier" value="Modifer">
+							<input type="button" name="supprimer1" value="Supprimer">
+						</div>
 					</div>
                     <input type="button" id="ajouter1" name="ajouter" value="Ajouter">
 					<input id="ajout" type="submit" value="Ajouter balise"/>
