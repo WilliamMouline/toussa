@@ -1,11 +1,12 @@
+var a, a1,a2, a3, nbDiv;
+
 window.onload = function() {
-	document.getElementById("ajouter1").addEventListener("click", plus, true);
+	document.getElementById('ajouterAttr').addEventListener("click", plus, true);
 }
 
-var a, a1,a2, a3, nbDiv;
 // ajouter un champ avec son "name" propre;
 function plus(){
-    a1=document.getElementById('allAttributs');
+	a1=document.getElementById('allAttributs');
 	a=a1.getElementsByTagName('div');
 	nbDiv=a.length;
     a2=a1.getElementsByTagName('input');
@@ -33,7 +34,7 @@ function plus(){
     a3=document.createElement('label');
      
     a3.setAttribute('for','valueattr'+nbDiv);
-	a3.textContent="Value :";
+	a3.textContent=" Value :";
     a1.appendChild(a3);
     
     a1=document.getElementById('ajout_attribut'+nbDiv);
@@ -42,6 +43,15 @@ function plus(){
     a3.setAttribute('name','vatr'+nbDiv);
     a3.setAttribute('id','valueattr'+nbDiv);
     a3.setAttribute('rows','1');
+    a1.appendChild(a3);
+    
+    a1=document.getElementById('ajout_attribut'+nbDiv);
+    a3=document.createElement('input');
+     
+    a3.setAttribute('type','button');
+    a3.setAttribute('id','ajouter'+nbDiv);
+    a3.setAttribute('name','ajouter');
+    a3.setAttribute('value','Ajouter');
     a1.appendChild(a3);
     
     a1=document.getElementById('ajout_attribut'+nbDiv);
