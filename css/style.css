@@ -100,17 +100,6 @@ textarea#content{
 	overflow-y: scroll;
 }
 
-div#ajout_attribut2 {
-	visibility:hidden;
-}
-
-div#ajout_attribut3 {
-	visibility:hidden;
-}
-
-div#ajout_attribut4 {
-	visibility:hidden;
-}
 div.attributs{
 	margin-top:1%;
 }
